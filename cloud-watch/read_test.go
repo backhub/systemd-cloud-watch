@@ -105,5 +105,5 @@ func TestReadAllFromJournal(t *testing.T) {
 		inputQueue.ReadBatchWait()
 	}
 
-	fmt.Println("COUNT ", count, "                                                      \n\n\n")
+	fmt.Println("COUNT ", count, "                                                      ")
 }
