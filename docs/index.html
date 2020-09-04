@@ -230,7 +230,7 @@ to <em>promptly</em> capture startup messages.</p>
 <h4>
 <a id="test-cloud-watch-package" class="anchor" href="#test-cloud-watch-package" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Test cloud-watch package</h4>
 
-<div class="highlight highlight-source-shell"><pre>go <span class="pl-c1">test</span> -v  github.com/advantageous/systemd-cloud-watch/cloud-watch</pre></div>
+<div class="highlight highlight-source-shell"><pre>go <span class="pl-c1">test</span> -v  github.com/backhub/systemd-cloud-watch/cloud-watch</pre></div>
 
 <h4>
 <a id="build-and-test-on-linux-centos7" class="anchor" href="#build-and-test-on-linux-centos7" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Build and Test on Linux (Centos7)</h4>
@@ -292,7 +292,7 @@ Running go build
 [root@6e0d1f984c03 systemd-cloud-watch]<span class="pl-c"># echo "Running go test"</span>
 Running go <span class="pl-c1">test</span>
 
-[root@6e0d1f984c03 systemd-cloud-watch]<span class="pl-c"># go test -v github.com/advantageous/systemd-cloud-watch/cloud-watch</span>
+[root@6e0d1f984c03 systemd-cloud-watch]<span class="pl-c"># go test -v github.com/backhub/systemd-cloud-watch/cloud-watch</span>
 === RUN   TestRepeater
 config DEBUG: 2016/11/30 08:53:34 config.go:66: Loading log...
 aws INFO: 2016/11/30 08:53:34 aws.go:42: Config <span class="pl-c1">set</span> to <span class="pl-k">local</span>
@@ -325,7 +325,7 @@ repeater ERROR: 2016/11/30 08:53:44 cloudwatch_journal_repeater.go:141: Error fr
 <span class="pl-c1">test</span> DEBUG: 2016/11/30 08:53:44 config.go:66: Loading log...
 --- PASS: TestOmitFields (0.00s)
 PASS
-ok      github.com/advantageous/systemd-cloud-watch/cloud-watch 10.017s</pre></div>
+ok      github.com/backhub/systemd-cloud-watch/cloud-watch 10.017s</pre></div>
 
 <h4>
 <a id="building-the-docker-image-to-build-the-linux-instance-to-build-this-project" class="anchor" href="#building-the-docker-image-to-build-the-linux-instance-to-build-this-project" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Building the docker image to build the linux instance to build this project</h4>

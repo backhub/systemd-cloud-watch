@@ -229,7 +229,7 @@ to *promptly* capture startup messages.
 
 #### Test cloud-watch package
 ```sh
-go test -v  github.com/advantageous/systemd-cloud-watch/cloud-watch
+go test -v  github.com/backhub/systemd-cloud-watch/cloud-watch
 ```
 
 
@@ -293,7 +293,7 @@ Running go build
 [root@6e0d1f984c03 systemd-cloud-watch]# echo "Running go test"
 Running go test
 
-[root@6e0d1f984c03 systemd-cloud-watch]# go test -v github.com/advantageous/systemd-cloud-watch/cloud-watch
+[root@6e0d1f984c03 systemd-cloud-watch]# go test -v github.com/backhub/systemd-cloud-watch/cloud-watch
 === RUN   TestRepeater
 config DEBUG: 2016/11/30 08:53:34 config.go:66: Loading log...
 aws INFO: 2016/11/30 08:53:34 aws.go:42: Config set to local
@@ -326,7 +326,7 @@ test DEBUG: 2016/11/30 08:53:44 config.go:66: Loading log...
 test DEBUG: 2016/11/30 08:53:44 config.go:66: Loading log...
 --- PASS: TestOmitFields (0.00s)
 PASS
-ok  	github.com/advantageous/systemd-cloud-watch/cloud-watch	10.017s
+ok  	github.com/backhub/systemd-cloud-watch/cloud-watch	10.017s
 ```
 
 

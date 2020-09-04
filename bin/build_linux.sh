@@ -30,7 +30,7 @@ go get
 echo "Running go build"
 go build
 echo "Running go test"
-go test -v github.com/advantageous/systemd-cloud-watch/cloud-watch
+go test -v github.com/backhub/systemd-cloud-watch/cloud-watch
 echo "Renaming output to _linux"
 mv systemd-cloud-watch systemd-cloud-watch_linux
 
