@@ -220,13 +220,15 @@ Wants=basic.target
 After=basic.target network.target
 
 [Service]
-User=nobody
+User=systemd-cloudwatch
 Group=nobody
 ExecStart=/usr/local/bin/journald-cloudwatch-logs /usr/local/etc/journald-cloudwatch-logs.conf
 KillMode=process
 Restart=on-failure
 RestartSec=42s
 ```
+
+The user `systemd-cloudwatch` needs read permissions to journal, e.g. by adding to the group `systemd-journal` on Debian.
 
 This program is designed under the assumption that it will run constantly from some point during
 system boot until the system shuts down.
