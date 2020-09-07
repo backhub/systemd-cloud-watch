@@ -2,8 +2,6 @@ github.com/advantageous/go-logback v0.0.0-20161215180304-6db19679ca3e h1:zDwXL5E
 github.com/advantageous/go-logback v0.0.0-20161215180304-6db19679ca3e/go.mod h1:pynxONZJ8msfhJ8u3t9OQZVPsn9i9AW4VW55zv9K9+I=
 github.com/advantageous/go-qbit v0.0.0-20161215210724-936ec5f2e3c9 h1:lEiUbe1qEufQw4LNKsT+76ZQyW7YAduILzXoM5A9WWo=
 github.com/advantageous/go-qbit v0.0.0-20161215210724-936ec5f2e3c9/go.mod h1:GxZGXJ9phUteP1gtCEXxhLHu5Lt/i5lP4qvbNAMLI2Y=
-github.com/advantageous/systemd-cloud-watch v0.2.1 h1:6zb+ZKts6oLxGc0149tffG9BF+50KANg1UeDcU9a3WI=
-github.com/advantageous/systemd-cloud-watch v0.2.1/go.mod h1:+CwaxP/IzCoJaXsFh9s9uazA4fReL+2IwjALzHKAigY=
 github.com/aws/aws-sdk-go v1.34.17 h1:9OzUgRrLmYm2mbfFx4v+2nBEg+Cvape1cvn9C3RNWTE=
 github.com/aws/aws-sdk-go v1.34.17/go.mod h1:5zCpMtNQVjRREroY7sYe8lOMRSxkhG6MZveU8YkpAk0=
 github.com/coreos/go-systemd v0.0.0-20191104093116-d3cd4ed1dbcf h1:iW4rZ826su+pqaw19uhpSCzhj44qo35pNgKFGqzDKkU=
